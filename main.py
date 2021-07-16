@@ -1,15 +1,14 @@
 #!coding=utf-8
 import requests
-import os
 import re
 import json
+
 import datetime
 import time
+
 import pandas as pd
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
-
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
-import win32api, win32con
 
 
 def raw(text):  # 转化URL字符串
